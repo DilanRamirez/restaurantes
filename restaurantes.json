@@ -1,0 +1,65 @@
+{
+  "help": "Search a datastore table. :param resource_id: id or alias of the data that is going to be selected.",
+  "success": true,
+  "result": {
+    "fields": [
+      { "id": "Nombre", "type": "text" },
+      { "id": "Direcci\u00f3n", "type": "text" },
+      { "id": "Tel\u00e9fono", "type": "text" },
+      { "id": "Horario", "type": "text" },
+      { "id": "Costo", "type": "text" },
+      { "id": "Latitud", "type": "float" },
+      { "id": "Longitud", "type": "float" }
+    ],
+    "resource_id": ["94cfc263-b6b0-4d68-a31e-2610fb4f0c23"],
+    "limit": 36,
+    "total": 36,
+    "records": [
+      {
+        "Nombre": "Hotel Boutique Casa Reyna",
+        "Direcci\u00f3n": "Privada 2 Ote. 1007, Centro.",
+        "Tel\u00e9fono": "+52 222 232 0032",
+        "Horario": "8:30 - 19:00",
+        "Costo": "$",
+        "Latitud": "19.059640",
+        "Longitud": "-98.204840"
+      },
+      {
+        "Nombre": "El Mural de los Poblanos",
+        "Direcci\u00f3n": "16 de Septiembre 506, Centro.",
+        "Tel\u00e9fono": "+522222420503",
+        "Horario": "8:00 - 00:00",
+        "Costo": "$$$",
+        "Latitud": "19.059640",
+        "Longitud": "-98.661320"
+      },
+      {
+        "Nombre": "Moyuelo",
+        "Direcci\u00f3n": "Av 7 Pte 312, Centro, 72000 Puebla, Pue., México",
+        "Tel\u00e9fono": "+522222966001",
+        "Horario": "13:30 - 22:30",
+        "Costo": "$$",
+        "Latitud": "19.031970",
+        "Longitud": "-97.784410"
+      },
+      {
+        "Nombre": "Restaurante La Noria",
+        "Direcci\u00f3n": "Av 41 Pte No. 2120, Reserva Territorial Atlixcáyotl, La Noria.",
+        "Tel\u00e9fono": "+522222966001",
+        "Horario": "No disponible",
+        "Costo": "$$",
+        "Latitud": "18.977420",
+        "Longitud": "-98.224423"
+      },
+      {
+        "Nombre": "Tagers",
+        "Direcci\u00f3n": "Calle 5 Sur 4910, Residencial Boulevares.",
+        "Tel\u00e9fono": "+522222110329",
+        "Horario": "09:00-20:00",
+        "Costo": "$$",
+        "Latitud": "19.037634",
+        "Longitud": "-98.224423"
+      }
+    ]
+  }
+}
